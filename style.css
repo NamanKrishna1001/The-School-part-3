@@ -1,0 +1,69 @@
+h1{
+border: salmon;
+}
+.heading{
+    color: #349eeb;
+}
+.Content{
+    color:#34eb7d;
+}
+    .About{ 
+        position: relative; 
+    } 
+    .About p{
+         position: absolute;
+          top: 50%;
+           left: 50%;
+            transform: translate(-50%, -50%);
+             opacity:0;
+         } 
+         .About:hover p{ opacity: 1;
+         }
+          .About:hover img{ opacity: 0.33;
+         }
+         .Events{
+             position:relative;
+
+         }
+         .Events p{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%-50%);
+opacity:0;
+         }
+         
+        
+         .Events:hover p{opacity:1;
+         }
+.Events:hover img{opacity:0.33;
+}
+.Experience{
+    position:relative;
+
+}
+.Experience p{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%-50%);
+opacity:0;
+}
+.Experience:hover p{opacity:1;
+}
+.Experience:hover img{opacity:0.33;
+}
+.home{
+    position:relative;
+
+}
+.home p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.home:hover p{opacity:1};
+.home:hover img{opacity:0.33;
+}
